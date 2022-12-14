@@ -1,0 +1,15 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "More advanced cypress POC concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "open": "npx cypress open"
+  },
+  "author": "NNR",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^11.2.0"
+  }
+}
