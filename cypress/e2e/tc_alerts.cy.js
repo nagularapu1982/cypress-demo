@@ -5,7 +5,7 @@ describe('exploring the alerts',()=>{
     })
     afterEach(function() {
         // runs after each test in the it block
-        cy.log("I am in afterEach")
+        cy.log('It block executed sussefully')
       })
     it('simple alert with OK option',()=>{
         cy.contains('Click for JS Alert').click()
