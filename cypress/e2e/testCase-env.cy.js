@@ -10,4 +10,12 @@ describe('Exploring the Envinorment Variables',()=>{
         cy.log(Cypress.env('UAT').user.url)
         cy.visit(Cypress.env('UAT').user.url)
     })
+    it('getting the env values through',()=>{
+        const a =Cypress.env('url')
+         // cy.visit(Cypress.env('url'))
+         // cy.log(Cypress.env('url1'))
+         cy.visit(Cypress.env('url1'))
+       
+     })
+
 })
