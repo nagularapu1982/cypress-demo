@@ -7,7 +7,7 @@ class HomePage{
     return cy.get('#reg_email')
    }
    getPassword(){
-    return cy.get('#areg_password')
+    return cy.get('#reg_password')
    }
    getRegister(){
 

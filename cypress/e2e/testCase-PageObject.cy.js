@@ -9,7 +9,7 @@ describe('Reading data directly',()=>{
         homePage.getUserName().type('Test User')
         cy.screenshot('Capturing the screenshot after successful login');
 
-        homePage.getPassword().type('TestPassword')
+        homePage.getPassword().should('be.visible').type('TestPassword')
         homePage.getEmail().type('testuser@gmail.com')
     })
 })
