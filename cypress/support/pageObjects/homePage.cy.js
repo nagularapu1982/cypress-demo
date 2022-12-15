@@ -13,6 +13,15 @@ class HomePage{
 
    }
    
+   getLogin(){
+      return cy.get(':nth-child(3) > .woocommerce-button')
+
+   }
+   getusernameErrormessage()
+   {
+      return cy.get('.woocommerce-error > li')
+
+   }
    
 }
 export default HomePage;
