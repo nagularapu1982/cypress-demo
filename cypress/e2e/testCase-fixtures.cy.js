@@ -10,11 +10,7 @@ describe('verify Fixtures',()=>{
      })
 })
   beforeEach('Open the url',()=>{
-    // cy.visit('https://example.cypress.io').then(()=>{
-    //     cy.log('Opend URL successfully')
-    // })
     cy.visit('https://example.cypress.io')
-    // done()
 })
     it('print the name',function(regdata){
             cy.log(this.regdata.name)
