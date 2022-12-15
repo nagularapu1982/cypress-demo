@@ -17,7 +17,7 @@ class HomePage{
       return cy.get(':nth-child(3) > .woocommerce-button')
 
    }
-   get usernameErrormessage()
+   getusernameErrormessage()
    {
       return cy.get('.woocommerce-error > li')
 
